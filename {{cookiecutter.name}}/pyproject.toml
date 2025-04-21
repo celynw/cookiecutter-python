@@ -32,7 +32,7 @@ Issues = "https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.name }}/i
 dev = []
 
 [project.scripts]
-bitwarden_merge = "{{ cookiecutter.package_name }}.main:main"
+bitwarden_merge = "{{ cookiecutter.package_name }}.main:app"
 
 [build-system]
 requires = ["setuptools"]
