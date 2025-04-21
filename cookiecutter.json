@@ -1,7 +1,10 @@
 {
 	"name": "my-project",
+	"package_name": "{{ cookiecutter.name.replace('-', '_') }}",
+	"friendly_name": "{{ cookiecutter.name.replace('-', ' ').title() }}",
 	"author": "(placeholder)",
 	"email": "(placeholder)",
 	"description": "A short description of the project",
-	"version": "0.1.0"
+	"version": "0.1.0",
+	"copyright_year": "{% now 'utc', '%Y' %}"
 }
